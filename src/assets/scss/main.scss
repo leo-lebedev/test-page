@@ -1,0 +1,32 @@
+@import 'reset.scss';
+@import "fonts.scss";
+
+html {
+  font-family: Lato, Arial, serif;
+  font-size: 1rem;
+
+  @media  screen and (max-width: 956px) {
+    font-size: .75rem;
+  }
+
+  @media  screen and (max-width: 450px) {
+    font-size: .6rem;
+  }
+}
+
+:root {
+  --color-primary: #3E9CDC;
+  --color-blue: #43ABF0;
+  --color-vary-blue: #43ABF0;
+  --color-blue-dark: #42A9ED;
+  --color-very-blue-dark: #286690;
+  --color-white: #FFFFFF;
+  --color-grey: #6F6D7B;
+  --color-light-grey: #BBBBBB;
+  --color-very-light-grey: #C3C3C3;
+  --color-dark-grey: #C4C4C4;
+  --color-black: #2A2B30;
+  --color-light-black: #10101D;
+  --color-black-light: #272733;
+  --color-black--very-light: #3D4050;
+}
